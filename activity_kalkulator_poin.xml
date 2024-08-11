@@ -1,0 +1,25 @@
+<LinearLayout ...>
+    <Spinner
+        android:id="@+id/jenis_kain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Spinner
+        android:id="@+id/kondisi_kain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/berat_kain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Berat Kain"
+        android:inputType="number" />
+    <Button
+        android:id="@+id/hitung_poin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hitung Poin" />
+    <TextView
+        android:id="@+id/hasil_poin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
